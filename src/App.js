@@ -1,5 +1,11 @@
+const { default: Body } = require("./components/Body");
+
 function App() {
-  return <div className="text-4xl">Netflix GPT</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 }
 
 export default App;
