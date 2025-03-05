@@ -18,6 +18,10 @@
 - Fetch from TMDB Movies
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
+- Unsubscribed to the onAuthStateChanged callback
+- Add hardcoded values to the constants file
+- Register TMDB API and create an app and get access token
+- Get data from TMDB now playing movies list API
 
 # Features
 

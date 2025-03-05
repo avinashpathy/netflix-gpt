@@ -8,3 +8,15 @@ export const USER_AVATAR =
   "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const PHOTO_URL =
+  "https://media.licdn.com/dms/image/v2/D5603AQEyov6lSquj4A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720943025523?e=1746662400&v=beta&t=isZ0cfpbTw4SM-_uAVYTQrLrd6XvSyciXOGlHmeWRjA";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmQwOTkzNzNlZWRkOWVmMGY3MDdiY2IyNGQzZTc1NiIsIm5iZiI6MTc0MTE5NzU1MS4wNDcwMDAyLCJzdWIiOiI2N2M4OTBlZjNkZTMwNDIxYjdjMmI1NmUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.0GciYN72YFP5EbYOqZYFesvy1n3e_5gj0-l_s8uR45A",
+  },
+};

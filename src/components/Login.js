@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import Header from "./Header";
-import { BG_URL } from "../utils/constants";
+import { BG_URL, PHOTO_URL } from "../utils/constants";
 import { checkValidData } from "../utils/validate";
 import {
   createUserWithEmailAndPassword,
@@ -37,8 +37,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-            photoURL:
-              "https://media.licdn.com/dms/image/v2/D5603AQEyov6lSquj4A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720943025523?e=1746662400&v=beta&t=isZ0cfpbTw4SM-_uAVYTQrLrd6XvSyciXOGlHmeWRjA",
+            photoURL: PHOTO_URL,
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
