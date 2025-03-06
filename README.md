@@ -30,6 +30,7 @@
 - Update Store with Trailer Video Data
 - Embedded the YouTube Video and make it autoplay and mute
 - Tailwind CSS to make MainContainer look awesome
+- Build SecondaryContainer
 
 # Features
 
