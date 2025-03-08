@@ -20,3 +20,18 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmQwOTkzNzNlZWRkOWVmMGY3MDdiY2IyNGQzZTc1NiIsIm5iZiI6MTc0MTE5NzU1MS4wNDcwMDAyLCJzdWIiOiI2N2M4OTBlZjNkZTMwNDIxYjdjMmI1NmUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.0GciYN72YFP5EbYOqZYFesvy1n3e_5gj0-l_s8uR45A",
   },
 };
+
+export const SUPPORTED_LANGUAGES = [
+  {
+    identifier: "en",
+    name: "English",
+  },
+  {
+    identifier: "hindi",
+    name: "Hindi",
+  },
+  {
+    identifier: "spanish",
+    name: "Spanish",
+  },
+];
